@@ -161,6 +161,22 @@ footer{
 }
 /* Footer End */
 
+.images{
+    padding: 80px 180px;
+}
+.gallery{
+    text-align: center;
+    padding: 80px;
+    color: #2D25A0;
+}
+.image{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+}
+
 /* Media Query  */
 @media (max-width:688px) {
     .container{
@@ -200,6 +216,19 @@ footer{
     
     .logo img{
         width: 328px;
+    }
+    .images{
+        display: grid;
+        justify-content: center;
+        padding-bottom: 80px;
+    }
+    .image{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-content: stretch;
+       
+       
+       
     }
     /* Media Query end */
  
