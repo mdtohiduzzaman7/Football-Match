@@ -168,20 +168,41 @@ footer{
         height: 100%;
         
     }
+    .container-right{
+        text-align: center;
+    }
+    .container-right img{
+        width: 329px;
+        height: 259.17px;
+    }
     .con , .players{
         display: grid;
         grid-template-columns: repeat(1 ,1fr);
         justify-content: center;
         align-items: center;
-
-
-       
+        
 
     }
-    .con-left{
+   
+    .con-left , .match-left{
     height: 100%;
     margin-bottom: 60px;
+    padding-left: 50px;
     }
+
+    .match-right{
+        text-align: center;
+    }
+    .match-right img{
+        width: 328px;
+        height: 248px;
+    }
+    
+    .logo img{
+        width: 328px;
+    }
+    
+ 
 }
 
     
